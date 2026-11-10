@@ -1,0 +1,17 @@
+{
+	"name": "SCH_TRIGGER_CSV_PARQUET",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2026-11-10T15:44:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}

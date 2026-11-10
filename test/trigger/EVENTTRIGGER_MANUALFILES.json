@@ -1,0 +1,24 @@
+{
+	"name": "EVENTTRIGGER_MANUALFILES",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "PL_ADLSCSV_TO_ADLS_PARQUET",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/eventcontainer/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/9b5ffb87-e25d-4108-a1b4-2fc4d184fba5/resourceGroups/rgdevchevronproject/providers/Microsoft.Storage/storageAccounts/adlsdevsource1803",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
