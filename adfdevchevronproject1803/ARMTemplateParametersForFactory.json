@@ -1,0 +1,123 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfdevchevronproject1803"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage2_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage3_accountKey": {
+			"value": ""
+		},
+		"LS_ADLS_CSV_accountKey": {
+			"value": ""
+		},
+		"LS_ADLS_DELETE_accountKey": {
+			"value": ""
+		},
+		"LS_ADLS_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_REST_API_SINK_accountKey": {
+			"value": ""
+		},
+		"LS_SINK_MULTIPLEPARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_SINK_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_SOURCE_CSV_accountKey": {
+			"value": ""
+		},
+		"LS_SOURCE_MULTIPLECSV_accountKey": {
+			"value": ""
+		},
+		"LS_SQLDATA_password": {
+			"value": ""
+		},
+		"LS_SQLSERVER_password": {
+			"value": ""
+		},
+		"LS_SQL_ADLS_SINK_accountKey": {
+			"value": ""
+		},
+		"LS_SQL_TO_ADLS_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://adlsdevsource1803.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage2_properties_typeProperties_url": {
+			"value": "https://adlsdevchevronsink1803.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage3_properties_typeProperties_url": {
+			"value": "https://adlsdevchevronsink1803.dfs.core.windows.net/"
+		},
+		"LS_ADLS_CSV_properties_typeProperties_url": {
+			"value": "https://adlsdevsource1803.dfs.core.windows.net/"
+		},
+		"LS_ADLS_DELETE_properties_typeProperties_url": {
+			"value": "https://adlsdevchevronsink1803.dfs.core.windows.net/"
+		},
+		"LS_ADLS_PARQUET_properties_typeProperties_url": {
+			"value": "https://adlsdevsource1803.dfs.core.windows.net/"
+		},
+		"LS_REST_API_properties_typeProperties_url": {
+			"value": "https://retoolapi.dev/5yDVOt/data"
+		},
+		"LS_REST_API_SINK_properties_typeProperties_url": {
+			"value": "https://adlsdevchevronsink1803.dfs.core.windows.net/"
+		},
+		"LS_SINK_MULTIPLEPARQUET_properties_typeProperties_url": {
+			"value": "https://adlsdevchevronsink1803.dfs.core.windows.net/"
+		},
+		"LS_SINK_PARQUET_properties_typeProperties_url": {
+			"value": "https://adlsdevchevronsink1803.dfs.core.windows.net/"
+		},
+		"LS_SOURCE_CSV_properties_typeProperties_url": {
+			"value": "https://adlsdevsource1803.dfs.core.windows.net/"
+		},
+		"LS_SOURCE_MULTIPLECSV_properties_typeProperties_url": {
+			"value": "https://adlsdevsource1803.dfs.core.windows.net/"
+		},
+		"LS_SQLDATA_properties_typeProperties_server": {
+			"value": "PV"
+		},
+		"LS_SQLDATA_properties_typeProperties_database": {
+			"value": "AdventureWorks2017"
+		},
+		"LS_SQLDATA_properties_typeProperties_userName": {
+			"value": "PV\\premc"
+		},
+		"LS_SQLSERVER_properties_typeProperties_server": {
+			"value": "PV"
+		},
+		"LS_SQLSERVER_properties_typeProperties_database": {
+			"value": "AdventureWorks2017"
+		},
+		"LS_SQLSERVER_properties_typeProperties_userName": {
+			"value": "PV\\premc"
+		},
+		"LS_SQL_ADLS_SINK_properties_typeProperties_url": {
+			"value": "https://adlsdevchevronsink1803.dfs.core.windows.net/"
+		},
+		"LS_SQL_TO_ADLS_properties_typeProperties_server": {
+			"value": "PV"
+		},
+		"LS_SQL_TO_ADLS_properties_typeProperties_database": {
+			"value": "AdventureWorks2017"
+		},
+		"LS_SQL_TO_ADLS_properties_typeProperties_userName": {
+			"value": "PV\\premc"
+		},
+		"EVENTTRIGGER_MANUALFILES_properties_typeProperties_scope": {
+			"value": "/subscriptions/9b5ffb87-e25d-4108-a1b4-2fc4d184fba5/resourceGroups/rgdevchevronproject/providers/Microsoft.Storage/storageAccounts/adlsdevsource1803"
+		}
+	}
+}
